@@ -2,6 +2,8 @@
 
 A reproducible version of an Uccle networking exercise. It connects two user subnets and a server LAN with static routes. An extended ACL limits traffic from User A to the server LAN to HTTP, HTTPS and ICMP.
 
+The reviewed local files and the relationship to this reconstructed lab are recorded in the [source notes](provenance.md).
+
 ```mermaid
 flowchart LR
     A["User A · 192.168.10.0/25"] --- R1
